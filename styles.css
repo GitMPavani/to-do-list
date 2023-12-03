@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h1{
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: disc; /* Change bullet style to filled circles */
+    padding-left: 20px; /* Add some left padding */
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #3498db; /* Border color */
+    color: #3498db; /* Text color */
+    background-color: #ffffff; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3498db; /* Background color on hover */
+    color: #ffffff; /* Text color on hover */
+  }
+  
+  .input-text {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    outline: none; /* Remove default focus outline */
+  }
+
+  /* Input Text Focus Style */
+.input-text:focus {
+    border-color: #3498db; /* Border color on focus */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Optional: Add a box shadow on focus */
+  }
